@@ -3,7 +3,7 @@ name = "BasicCoin"
 version = "0.0.0"
 
 [addresses]
-NamedAddr = "0xCAFE"
+NamedAddr = "0x86d2acf67fc7a135189990d1a4283b36a2eb7c116d6eec703652d268a7303e5b"
 
 [dependencies]
 MoveStdlib = { local = "../../../../move-stdlib/", addr_subst = { "std" = "0x1" } }
