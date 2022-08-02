@@ -4,6 +4,7 @@ module NamedAddr::BasicCoin {
 
     /// Address of the owner of this module
     const MODULE_OWNER: address = @NamedAddr;
+    // const MODULE_OWNER: address = '0x86d2acf67fc7a135189990d1a4283b36a2eb7c116d6eec703652d268a7303e5b';
 
     /// Error codes
     const ENOT_MODULE_OWNER: u64 = 0;

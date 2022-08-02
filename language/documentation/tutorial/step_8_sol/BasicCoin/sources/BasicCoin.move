@@ -1,13 +1,13 @@
 /// This module defines a minimal and generic Coin and Balance.
-module NamedAddr::BasicCoin {
+module NamedAddr::BasicCoin2 {
     use std::signer;
 
     /// Error codes
-    const ENOT_MODULE_OWNER: u64 = 0;
+    const ENOT_MODULE_OWNER:     u64 = 0;
     const EINSUFFICIENT_BALANCE: u64 = 1;
-    const EALREADY_HAS_BALANCE: u64 = 2;
-    const EALREADY_INITIALIZED: u64 = 3;
-    const EEQUAL_ADDR: u64 = 4;
+    const EALREADY_HAS_BALANCE:  u64 = 2;
+    const EALREADY_INITIALIZED:  u64 = 3;
+    const EEQUAL_ADDR:           u64 = 4;
 
     struct Coin<phantom CoinType> has store {
         value: u64
